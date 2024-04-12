@@ -47,7 +47,7 @@ func newCmd(c *cli.Context) error {
 	if err = os.RemoveAll(filepath.Join(dstPath, ".git")); err != nil {
 		return err
 	}
-	if err = os.Rename(filepath.Join(dstPath, ".example.env"), filepath.Join(dstPath, ".env")); err != nil {
+	if err = os.Rename(filepath.Join(dstPath, ".env.example"), filepath.Join(dstPath, ".env")); err != nil {
 		return err
 	}
 
