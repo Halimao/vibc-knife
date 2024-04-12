@@ -22,7 +22,7 @@ $ vibc-knife new vibc-demo-app
 
 ## Demo
 
-[![Cover](https://img.youtube.com/vi/on0eevRtODk/0.jpg)](https://www.youtube.com/watch?v=on0eevRtODk)
+[![vIBC Knife](https://res.cloudinary.com/marcomontalbano/image/upload/v1712906686/video_to_markdown/images/youtube--on0eevRtODk-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=on0eevRtODk "vIBC Knife")
 
 
 ## Future Improvements
