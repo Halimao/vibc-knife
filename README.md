@@ -22,7 +22,7 @@ $ vibc-knife new vibc-demo-app
 
 ## Demo
 
-[![image](https://github.com/Halimao/vibc-knife/assets/25278203/b749a4e7-e11f-43e4-a450-c9ff8d0d9af6)](https://www.youtube.com/watch?v=on0eevRtODk)
+[![Cover](https://img.youtube.com/vi/on0eevRtODk/0.jpg)](https://www.youtube.com/watch?v=on0eevRtODk)
 
 
 ## Future Improvements
