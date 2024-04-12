@@ -8,8 +8,8 @@
 
 ## QuickStart
 ```shell
-$ go install github.com/Halimao/vibc-knife/cmd/ibcknife
-$ ibcknife --help # for more help information
+$ go install github.com/Halimao/vibc-knife@latest
+$ vibc-knife --help # for more help information
 ```
 
 ## Future Improvements
