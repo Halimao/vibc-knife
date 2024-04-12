@@ -37,10 +37,20 @@ func newCmd(c *cli.Context) error {
 		cloneOpts.RecurseSubmodules = git.DefaultSubmoduleRecursionDepth
 	}
 
+	fmt.Println("Cloning template.....")
 	_, err := git.PlainClone(dstPath, false, cloneOpts)
 	if err != nil {
 		return err
 	}
+	fmt.Println("Cloned successfully")
+
+	if err = os.RemoveAll(filepath.Join(dstPath, ".git")); err != nil {
+		return err
+	}
+	if err = os.Rename(filepath.Join(dstPath, ".example.env"), filepath.Join(dstPath, ".env")); err != nil {
+		return err
+	}
+
 	fmt.Println("Create new project success!!!")
 	return nil
 }
