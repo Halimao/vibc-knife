@@ -51,6 +51,7 @@ func newCmd(c *cli.Context) error {
 		return err
 	}
 
-	fmt.Println("Create new project success!!!")
+	projectRootAbs, _ := filepath.Abs(dstPath)
+	fmt.Printf("Create new project success!!!\nProject root: %s\n", projectRootAbs)
 	return nil
 }
