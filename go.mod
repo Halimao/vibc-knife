@@ -1,6 +1,6 @@
 module github.com/Halimao/vibc-knife
 
-go 1.22.0
+go 1.23
 
 require (
 	github.com/cheggaaa/pb v1.0.29
